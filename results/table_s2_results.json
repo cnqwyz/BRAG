@@ -1,0 +1,13 @@
+{
+  "hidden_dim": 128,
+  "num_layers": 3,
+  "gnn_type": "gcn",
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 1e-05,
+  "epochs": 50,
+  "contrastive_lambda_c": 0.1,
+  "contrastive_temperature": 0.2,
+  "pool_type": "mean",
+  "interaction_type": "abs_diff"
+}
