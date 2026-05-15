@@ -101,7 +101,7 @@ model = BRAG(encoder, hidden_dim=128, pool="mean", interaction="abs_diff")
 
 | Argument | Default | Description |
 |----------|---------|-------------|
-| `--epochs` | 50 | Training epochs |
+| `--epochs` | 300 | Training epochs |
 | `--seeds` | 10 | Number of random seeds |
 | `--device` | cuda | Device (cuda/cpu) |
 | `--hidden_dim` | 128 | Hidden dimension |
